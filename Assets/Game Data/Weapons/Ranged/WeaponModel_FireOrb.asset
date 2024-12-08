@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6fcdc566a10ac4fa78c4e171534ff6, type: 3}
+  m_Name: WeaponModel_FireOrb
+  m_EditorClassIdentifier: 
+  ID: FireOrb
+  Name: Fire Orb
+  prefabReference:
+    m_AssetGUID: 13a9594e014d5a046b107085837def0b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  Icon: {fileID: 21300000, guid: 13d37d16460d8a64eb11c63a6fe8cb8d, type: 3}
+  AttackSpeedBonus: 3
+  AttackRangeBonus: 3
+  compatibleHeroClasses: 2
+  projectilePrefabReference:
+    m_AssetGUID: f2495e43a0b79104589cc11f18683750
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 1

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Heroes
+  m_EditorClassIdentifier: 
+  m_GroupName: Heroes
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1441f65e4ea5b664b9b11fc697dd1a9d
+  m_SerializeEntries:
+  - m_GUID: 89de4008f8cc87d4a8e2924ba9d12eb7
+    m_Address: Assets/Prefabs/Heroes/Hero_Alice.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 965c08d93e62fed4f8c3020b6aaadbd9
+    m_Address: Assets/Prefabs/Heroes/Hero_Alex.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2c2a01d9444a5c343a774372540cda35, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d3104305ed9fe3b4bb6ddd53229c0011, type: 2}
+    - {fileID: 11400000, guid: 6f5532386350fc449bb144454ecf2a6a, type: 2}

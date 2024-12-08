@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62be43edd1f80384682838ca26aa25c0, type: 3}
+  m_Name: EnemyModel_BigBee
+  m_EditorClassIdentifier: 
+  ID: BigBee
+  Name: Big Bee
+  prefabReference:
+    m_AssetGUID: 5fe8c1b72f965324485df6238ad2ebaf
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  MaxHealthPoints: 15
+  BaseAttackDamage: 2
+  BaseAttackRate: 1
+  BaseAttackRange: 3
+  BaseMoveSpeed: 4
+  detectionRange: 6
+  worldIndex: 0
+  XPReward: 3
