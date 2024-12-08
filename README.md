@@ -34,10 +34,10 @@ Unlike other games where I have to test whether the core mechanics are fun or no
 
 ## Further steps
 - **Data persistence**
-    - Since it wasn't stated that levels or any kind of persistence should be included I skipped that part, but the idea would be to mirror de ModelData (which is static, handled by ScriptableObjects) as RuntimeData according to the persistency needs, for example,  "WeaponRuntimeData" would be a  Serialized class that handle if the weapon have been upgraded (Runes, Levels, Enchantments), linked through the ID with its Model.
+    - Since it wasn't stated that levels or any kind of persistence should be included I skipped that part, but the idea would be to mirror the ModelData (which is static, handled by ScriptableObjects) as RuntimeData according to the persistency needs, for example,  "WeaponRuntimeData" would be a  Serialized class that handle if the weapon have been upgraded (Runes, Levels, Enchantments), linked through the ID with its Model.
     - We could handle the runtime data through Binaries or JSON (I prefer binaries), mixing local data with server validations, or, if security is a must, handling the whole runtime data server-side.
 - **Gameplay stuff**
-    - Buffs & Debuffs, Habilities, Weapon effects, class perks,  leveling, Game Objectives, Cool gameloops, etc.
+    - Buffs & Debuffs, abilities, Weapon effects, class perks,  leveling, Game Objectives, Cool gameloops, etc.
 - **Scriptables / Data Structure tools**:  
     - Something I like about Scriptables is the synergy with editor tools to visualize, handle and organize them.
 
@@ -54,4 +54,4 @@ Unlike other games where I have to test whether the core mechanics are fun or no
     - I wanted to show up the diversity of entities and data handling. Also magic is fun! 
 - **About naming**
     - I used a simple naming convention (PascalCase and camelCase) just for clarity.
-    - Some classes (CombatHandler, etc...) and others named x**Handler** are basically non-monobehaviour **controllers**. It's just an habit but I have no problem in switching to the conventional naming!
+    - Some classes (CombatHandler, etc...) and others named x**Handler** are basically non-monobehaviour **controllers**. It's just a habit but I have no problem in switching to the conventional naming!
